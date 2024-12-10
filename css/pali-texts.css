@@ -1,0 +1,105 @@
+
+.image-gallery {
+    padding-left: 0px;
+    width: 80%;
+}
+
+.image-gallery li {
+    list-style: none;
+    display: inline-block;
+    padding: 1em;
+    border: 1px rgba(90, 91, 92, 0.11) solid;
+    border-radius: 10px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.thumbnail-holder {
+    width: 12em;
+    height: 12em;
+}
+
+.thumbnail-holder img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.thumbnail-info {
+    margin-top: 0.5em;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.nav.nav-tabs {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.table.info-table {
+    width: 80%;
+}
+
+.table.info-table th {
+    width: 20%;
+    background-color: #ececec;
+}
+
+.preview-image-holder {
+    width: 80%;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.preview-image-holder img {
+    cursor: pointer;
+}
+
+ul.nav.flex-column ul.nav.flex-column {
+    margin-left: 1em;
+    margin-top: 0.6em;
+}
+
+ul.nav.flex-column li.nav-item.active > a {
+    font-weight: bold;
+}
+
+ul.nav.flex-column li.nav-item {
+    margin-bottom: 0.6em;
+}
+
+.archive-list-item {
+    border-bottom: 1px solid #dee2e6;
+    padding: 1.5em 0.8em;
+}
+
+.archive-list-item .thumbnail-holder {
+    float: left;
+    margin-right: 1em;
+}
+
+.facet-expand {
+    font-size: 1.3em;
+    margin-right: 0.2em;
+    cursor: pointer;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    line-height: 0;
+    overflow: hidden;
+    background-color: #EBEBEB;
+}
+
+.card-img-top img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}

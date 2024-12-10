@@ -1,0 +1,58 @@
+.checkbox-facet ul {
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.checkbox-facet li:before {
+    display: none;
+}
+
+.checkbox-facet ul ul {
+    margin-left: 2em;
+}
+
+.checkbox-facet div.facet-checkbox {
+    display: inline-block;
+}
+
+.pali-facet-pane {
+    padding-top: 2em;
+}
+
+.facet-title {
+    font-size: 1em;
+    font-weight: bold;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.checkbox-facet {
+    max-height: 30em;
+    overflow-y: auto;
+}
+
+ul.pagination {
+    margin-top: 2em;
+}
+
+.pali-result-pane .result-table thead th {
+    border-top: none;
+}
+
+.detail-modal {
+    z-index: 1070 !important;
+}
+
+.detail-modal .modal-dialog {
+    max-width: 1200px;
+    margin-top: 5em;
+}
+
+.detail-modal .modal-dialog .modal-body {
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.modal-backdrop {
+    display: block !important;
+    z-index: 1060 !important;
+}
